@@ -108,6 +108,7 @@ h6 {
 
 .page {
     margin: 0 auto;
+    min-width: 100%;
 }
 
 .header {
@@ -138,12 +139,13 @@ h6 {
     z-index: 1;
     display: flex;
     min-width: 100%;
-    margin-top: 21px;
     justify-content: space-between;
+    padding: 21px 35px;
 }
 
 .head__left-block {
     display: flex;
+
 }
 
 .logo {
@@ -151,6 +153,7 @@ h6 {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    margin:8px 38px 0 0;
 }
 
 .logo span {
@@ -161,6 +164,9 @@ h6 {
 
 .menu {
     display: flex;
+    min-width: 352px;
+    justify-content: space-between;
+    margin-top: 13px;
 }
 
 .menu__link,
@@ -169,7 +175,6 @@ h6 {
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
-    line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     transition-duration: .2s;
@@ -184,10 +189,16 @@ h6 {
     display: flex;
 }
 
-.login {}
+.login {
+    min-width: 125px;
+    margin-right: 23px;
+}
 
 .login__menu {
     display: flex;
+    min-width: 100%;
+    margin-top: 13px;
+    justify-content: space-between;
 }
 
 .login__link:hover {
