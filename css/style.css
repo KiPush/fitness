@@ -97,9 +97,10 @@ h6 {
 }
 
 /*--------------------*/
-.border{
+.border {
     border: 1px solid red;
 }
+
 .wrap {
     max-width: 1600px;
     min-height: 100%;
@@ -109,6 +110,13 @@ h6 {
 .page {
     margin: 0 auto;
     min-width: 100%;
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header {
@@ -153,7 +161,7 @@ h6 {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    margin:8px 38px 0 0;
+    margin: 8px 38px 0 0;
 }
 
 .logo span {
@@ -222,17 +230,55 @@ h6 {
     transition-duration: .2s;
 }
 
-.banner__info {}
+.banner__info {
+    position: absolute;
+    top: 229px;
+    left: 245px;
+}
 
-.banner__title {}
+.banner__title {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
 
-.banner__subtitle {}
+.banner__title span {
+    color: #fa7c30;
+}
 
-.main-btn {}
+.banner__subtitle {
+    color: #ffffff;
+    /* line-height: 30px; */
+    letter-spacing: 1.4px;
+    margin-bottom: 71px;
+}
+
+.main-btn {
+    display: block;
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    border: 1px solid #fa7c30;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    text-align: center;
+    transition-duration: .2s;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: #fa7c30;
+    border: 1px solid #fa7c30;
+    transition-duration: .2s;
+}
 
 .online-booking {}
-
-.container {}
 
 .booking-form__wrap {}
 
