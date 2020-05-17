@@ -97,72 +97,222 @@ h6 {
 }
 
 /*--------------------*/
+.border{
+    border: 1px solid red;
+}
+.wrap {
+    max-width: 1600px;
+    min-height: 100%;
+    margin: 0 auto;
+}
 
-.wrap { }
-.page { }
-.header { }
-.header__img { }
-.header__head { }
-.head__left-block { }
-.logo { }
-.nav { }
-.menu { }
-.menu__link { }
-.head__right-block { }
-.login { }
-.login__menu { }
-.login__link { }
-.chose-plan__btn { }
-.banner__info { }
-.banner__title { }
-.banner__subtitle { }
-.main-btn { }
-.online-booking { }
-.container { }
-.booking-form__wrap { }
-.booking-form__img { }
-.booking-form__inner { }
-.form__uptitle { }
-.form__title { }
-.welcome { }
-.welcome__block { }
-.welcome__info { }
-.section__title { }
-.welcome__img { }
-.programm { }
-.section__subtitle { }
-.programm__block { }
-.programm__item { }
-.item__img { }
-.item__title { }
-.personal-trainer { }
-.personal-trainer__img { }
-.personal-trainer__uptitle { }
-.personal-trainer__title { }
-.team { }
-.team__block { }
-.team__persona { }
-.persona__img { }
-.persona__name { }
-.persona__specializatin { }
-.persona__about { }
-.footer__banner { }
-.banner { }
-.banner__uptitle { }
-.footer { }
-.footer__block { }
-.about { }
-.block__social { }
-.social__title { }
-.social__icon { }
-.blogs { }
-.footer__title { }
-.block__blogs { }
-.blogs__item { }
-.blogs__img { }
-.blogs__text { }
-.instagram { }
-.block__instagram { }
-.instagram__img { }
-.more { }
-.copy { }
+.page {
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background-color: #000;
+}
+
+.header__img {
+    position: relative;
+    padding: 0 0 58% 0;
+    overflow: hidden;
+}
+
+.header__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.header__head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    min-width: 100%;
+    margin-top: 21px;
+    justify-content: space-between;
+}
+
+.head__left-block {
+    display: flex;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #fa7c30;
+}
+
+.nav {}
+
+.menu {
+    display: flex;
+}
+
+.menu__link,
+.login__link,
+.chose-plan__btn {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    transition-duration: .2s;
+}
+
+.menu__link:hover {
+    color: #fa7c30;
+    transition-duration: .2s;
+}
+
+.head__right-block {
+    display: flex;
+}
+
+.login {}
+
+.login__menu {
+    display: flex;
+}
+
+.login__link:hover {
+    color: #fa7c30;
+    transition-duration: .2s;
+}
+
+.chose-plan__btn {
+    width: 121px;
+    height: 39px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.chose-plan__btn:hover {
+    border: 2px solid #fa7c30;
+    color: #fa7c30;
+    transition-duration: .2s;
+}
+
+.banner__info {}
+
+.banner__title {}
+
+.banner__subtitle {}
+
+.main-btn {}
+
+.online-booking {}
+
+.container {}
+
+.booking-form__wrap {}
+
+.booking-form__img {}
+
+.booking-form__inner {}
+
+.form__uptitle {}
+
+.form__title {}
+
+.welcome {}
+
+.welcome__block {}
+
+.welcome__info {}
+
+.section__title {}
+
+.welcome__img {}
+
+.programm {}
+
+.section__subtitle {}
+
+.programm__block {}
+
+.programm__item {}
+
+.item__img {}
+
+.item__title {}
+
+.personal-trainer {}
+
+.personal-trainer__img {}
+
+.personal-trainer__uptitle {}
+
+.personal-trainer__title {}
+
+.team {}
+
+.team__block {}
+
+.team__persona {}
+
+.persona__img {}
+
+.persona__name {}
+
+.persona__specializatin {}
+
+.persona__about {}
+
+.footer__banner {}
+
+.banner {}
+
+.banner__uptitle {}
+
+.footer {}
+
+.footer__block {}
+
+.about {}
+
+.block__social {}
+
+.social__title {}
+
+.social__icon {}
+
+.blogs {}
+
+.footer__title {}
+
+.block__blogs {}
+
+.blogs__item {}
+
+.blogs__img {}
+
+.blogs__text {}
+
+.instagram {}
+
+.block__instagram {}
+
+.instagram__img {}
+
+.more {}
+
+.copy {}
