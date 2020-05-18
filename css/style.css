@@ -108,6 +108,7 @@ h6 {
 }
 
 .page {
+    position: relative;
     margin: 0 auto;
     min-width: 100%;
 }
@@ -121,13 +122,14 @@ h6 {
 
 .header {
     position: relative;
-    background-color: #000;
+
 }
 
 .header__img {
     position: relative;
     padding: 0 0 58% 0;
     overflow: hidden;
+    background-color: #000;
 }
 
 .header__img img {
@@ -278,39 +280,203 @@ h6 {
     transition-duration: .2s;
 }
 
-.online-booking {}
+/* Booking */
+.online-booking {
+    margin-top: -210px;
+}
 
-.booking-form__wrap {}
+.booking-form__wrap {
+    display: flex;
+    min-width: 100%;
+}
 
-.booking-form__img {}
+.booking-form__img {
+    position: relative;
+    /* padding: 0 0 58% 0; */
+    width: 350px;
+    height: 519px;
+    overflow: hidden;
+}
 
-.booking-form__inner {}
+.booking-form__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 
-.form__uptitle {}
+}
 
-.form__title {}
+.booking-form__inner {
+    background-color: #fff;
+}
 
-.welcome {}
+.form__uptitle,
+.form__title {
+    color: #161418;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
-.welcome__block {}
+.form__uptitle {
+    font-size: 26px;
+}
 
-.welcome__info {}
+.form__title {
+    font-size: 36px;
+}
 
-.section__title {}
+button {
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    border: 1px solid #fa7c30;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    text-align: center;
+    transition-duration: .2s;
+}
 
-.welcome__img {}
+button:hover {
+    background-color: transparent;
+    color: #fa7c30;
+    border: 1px solid #fa7c30;
+    transition-duration: .2s;
+}
 
-.programm {}
+.welcome {
+    min-width: 100%;
+    min-height: 1305px;
+    margin-top: -309px;
+    background-color: #f1f4f6;
+    padding: 419px 55px 80px 245px;
 
-.section__subtitle {}
+}
 
-.programm__block {}
+.welcome__block {
+    display: flex;
+    justify-content: space-between;
+}
 
-.programm__item {}
+.welcome__info {
+    max-width: 390px;
+}
 
-.item__img {}
+.section__title {
+    color: #161418;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
 
-.item__title {}
+.section__title span {
+    color: #fa7c30;
+}
+
+.welcome__info {
+    margin-top: 153px;
+}
+
+.welcome__info p {
+    color: #a8a9ac;
+    line-height: 30px;
+}
+
+.welcome__info p span {
+    color: #161418;
+    font-weight: 700;
+}
+
+.welcome__img {
+    position: relative;
+    min-width: 655px;
+    min-height: 806px;
+    /* padding: 0 0 58% 0; */
+    overflow: hidden;
+}
+
+.welcome__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.main-btn_welcome {
+    margin-top: 61px;
+    ;
+}
+
+.programm {
+    min-height: 976px;
+    padding: 80px 0;
+}
+
+.section__subtitle {
+    color: #161418;
+    opacity: 0.6;
+}
+
+.programm__block {
+    display: flex;
+    max-width: 1140px;
+    margin:51px -15px 0 -15px;
+}
+
+.programm__item {
+    padding: 0 15px;
+    flex: 0 1 33.333%;
+    display: flex;
+}
+
+.item__img {
+    position: relative;
+    /* padding: 0 0 58% 0; */
+    min-height: 399px;
+    overflow: hidden;
+}
+
+.item__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.info__wrap {
+    background-color: #f1f4f6;
+    padding: 41px 42px 33px 42px;
+}
+.item__info{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.item__title {
+    color: #161418;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.item__text {
+    color: #161418;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 53px;
+}
 
 .personal-trainer {}
 
